@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+/* Header design */
+header {
+  padding: 2rem, 1rem;
+  background-color: tan;
+}
+
+
+#header-title {
+  color: #4d2303;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  padding-top: 20px;
+  text-align: left;
+  font-family: "Niconne", sans-serif;
+  font-size: 60px;
+  font-weight: 550;
+  font-style: normal;
+  letter-spacing: 2px;
+}
+
+.header-intro {
+  display: flex;
+  font-family: "Niconne", sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  text-align: left;
+  color: #492000;
+  margin-left: 50px;
+  letter-spacing: 0.06rem;
+}
+
+/* nav-bar section */
+nav,
+ul {
+  color: rgb(149, 92, 0);
+  margin-right: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 850;
+  padding: 2.6px;
+  display: flex;
+  justify-content: right;
+  list-style: none;
+  gap: 1.2rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(64, 39, 0);
+}
+
+nav ul li a:hover {
+  background-color: rgb(140, 90, 3);
+  padding: 4px;
+  border-radius: 8px;
+}
+/*  */
+
+/* MAIN CONTENT STYLING */
+
+.about-us {
+  display: flex;
+  font-family: "Niconne", sans-serif;
+  font-size: 35px;
+  font-weight: bolder;
+  color: rgb(75, 42, 0);
+  justify-content: center;
+  padding: 30px;
+  letter-spacing: 0.2rem;
+  margin-top: 25px;
+}
+
+.about-intro {
+  display: flex;
+  text-align: center;
+  color: rgb(65, 40, 0);
+  padding-inline: 25%;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 1.8rem;
+  letter-spacing: 0.08rem
+}
+/* Product Images */
+.image-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 250px;
+    padding: 20px 0;
+}
+
+.image-heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+    padding-bottom: 50px;
+    font-family: "Niconne", sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    color: #4d2303;
+}
+
+.oreo-rolls {
+    width: 250%;
+    height: auto;
+    border: 2px solid burlywood;
+    border-radius: 5px;
+}
+
+.boxed-oreos {
+    width: 250%;
+    height: auto;
+    border: 2px solid burlywood;
+    border-radius: 5px;
+}
+/*  */
+
+
+/* CINNAMON ROLL LAYOUT */
+.baking-style {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-bottom: 50px;
+  font-family: "Niconne", sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+  color: #4d2303;
+  letter-spacing: 0.2rem;
+}
+
+.baking-style-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 300px;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.cinnamon-roll {
+  width: 150px;
+  height: auto;
+}
+
+.cinnamon-roll-text {
+  text-align: center;
+  margin-top: 1px;
+  width: 140px;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 150px;
+  padding-right: 50px;
+}
+
+/* ORGANIC ICON LAYOUT */
+.organic-icon {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 142px;
+  height: auto;
+}
+
+.organic-text {
+  text-align: center;
+  width: 140px;
+}
+
+.baking-icon {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 140px;
+  height: auto;
+}
+
+.baking-text {
+  text-align: center;
+  margin-top: 12px;
+  width: 140px;
+}
