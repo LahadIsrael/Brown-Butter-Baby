@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #f7f7f7;
+  background-color: #fdf6ec;
 }
 
 /* Header design */
@@ -14,18 +14,24 @@ header {
   background-color: tan;
 }
 
-
 #header-title {
   color: #4d2303;
   margin-left: 20px;
   margin-bottom: 5px;
-  padding-top: 20px;
+  padding-top: 40px;
   text-align: left;
   font-family: "Niconne", sans-serif;
-  font-size: 60px;
+  font-size: 2.8rem;
   font-weight: 550;
   font-style: normal;
   letter-spacing: 2px;
+}
+
+.img-logo {
+  display: block;
+  margin: 0 auto;
+  width: 180px;
+  border-radius: 100px;
 }
 
 .header-intro {
@@ -70,63 +76,66 @@ nav ul li a:hover {
 .about-us {
   display: flex;
   font-family: "Niconne", sans-serif;
-  font-size: 35px;
+  font-size: 3.5rem;
   font-weight: bolder;
-  color: rgb(75, 42, 0);
+  color: rgb(121, 88, 45);
   justify-content: center;
   padding: 30px;
   letter-spacing: 0.2rem;
-  margin-top: 25px;
+  margin-top: 80px;
 }
 
 .about-intro {
   display: flex;
   text-align: center;
-  color: rgb(65, 40, 0);
-  padding-inline: 25%;
+  color: rgb(68, 38, 0);
+  padding-inline: 20%;
   font-family: "Nunito Sans", sans-serif;
   font-size: 16px;
   font-weight: 900;
   line-height: 1.8rem;
-  letter-spacing: 0.08rem
+  letter-spacing: 0.08rem;
 }
 /* Product Images */
-.image-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-    gap: 250px;
-    padding: 20px 0;
-}
-
 .image-heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  font-family: "Niconne", sans-serif;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: rgb(121, 88, 45);
+}
+
+.image-text {
     display: flex;
     justify-content: center;
-    margin-top: 8rem;
-    padding-bottom: 50px;
-    font-family: "Niconne", sans-serif;
-    font-size: 35px;
-    font-weight: bolder;
-    color: #4d2303;
+    margin-bottom: 8px;
+    font-family: "Nunito Sans", serif;
+    font-style: italic;
+    color: rgb(121, 88, 45);
 }
 
-.oreo-rolls {
-    width: 250%;
-    height: auto;
-    border: 2px solid burlywood;
-    border-radius: 5px;
+.media-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 16px;
+  background-color: tan;
+  border: px solid burlywood;
 }
 
-.boxed-oreos {
-    width: 250%;
-    height: auto;
-    border: 2px solid burlywood;
-    border-radius: 5px;
+.media-item {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border: 5px solid rgb(99, 43, 0);
+  border-radius: 10px;
 }
+
 /*  */
-
 
 /* CINNAMON ROLL LAYOUT */
 .baking-style {
@@ -135,9 +144,9 @@ nav ul li a:hover {
   margin-top: 10rem;
   margin-bottom: 50px;
   font-family: "Niconne", sans-serif;
-  font-size: 35px;
+  font-size: 3.5rem;
   font-weight: 900;
-  color: #4d2303;
+  color: rgb(123, 93, 53);
   letter-spacing: 0.2rem;
 }
 
@@ -157,18 +166,24 @@ nav ul li a:hover {
 }
 
 .cinnamon-roll-text {
-  text-align: center;
-  margin-top: 1px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  align-items: center;
   width: 140px;
+  height: auto;
+  padding: 8px;
 }
 
-figure {
+/* figure {
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 150px;
   padding-right: 50px;
-}
+} */
 
 /* ORGANIC ICON LAYOUT */
 .organic-icon {
@@ -180,8 +195,15 @@ figure {
 }
 
 .organic-text {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  align-items: center;
   width: 140px;
+  height: auto;
+  padding: 8px;
 }
 
 .baking-icon {
@@ -193,7 +215,14 @@ figure {
 }
 
 .baking-text {
-  text-align: center;
-  margin-top: 12px;
+    margin-top: 10px;
+   display: flex;
+  flex-direction: column;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  align-items: center;
   width: 140px;
+  height: auto;
+  padding: 8px;
 }
