@@ -228,6 +228,17 @@ nav ul li a:hover {
   padding: 8px;
 }
 
+.social-header {
+  display: flex;
+  justify-content: center;
+  font-family: "Niconne", cursive;
+  font-size: 4rem;
+  font-weight: 800;
+  color: #8a6a4a;
+  padding: 10px;
+  margin-top: 8rem;
+}
+
 .connect-section {
   display: flex;
   align-items: stretch;
@@ -339,82 +350,90 @@ nav ul li a:hover {
   background: rgba(123, 93, 53, 0.15);
 }
 
-    /* ── RIGHT: SOCIAL ── */
-    .social-col {
-      flex: 1;
-      background: #fdf6ee;
-      padding: 60px 50px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-start;
-    }
- 
-    .social-col h2 {
-      font-family: 'Niconne', cursive;
-      font-size: 2.8rem;
-      color: #7b5d35;
-      margin-bottom: 12px;
-    }
- 
-    .social-col p {
-      font-size: 0.95rem;
-      color: #8a6a4a;
-      line-height: 1.7;
-      font-weight: 300;
-      margin-bottom: 32px;
-      max-width: 300px;
-    }
- 
-    .social-links {
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
-    }
- 
-    .social-link {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      text-decoration: none;
-      color: #7b5d35;
-      font-size: 0.95rem;
-      font-weight: 400;
-      letter-spacing: 0.02em;
-      transition: color 0.2s, transform 0.2s;
-    }
- 
-    .social-link:hover {
-      color: #c9973a;
-      transform: translateX(4px);
-    }
- 
-    .social-icon {
-      width: 42px; height: 42px;
-      border-radius: 50%;
-      border: 1.5px solid rgba(123,93,53,0.25);
-      display: flex; align-items: center; justify-content: center;
-      transition: border-color 0.2s, background 0.2s;
-    }
- 
-    .social-link:hover .social-icon {
-      border-color: #c9973a;
-      background: rgba(201,151,58,0.08);
-    }
- 
-    .social-icon svg {
-      width: 18px; height: 18px;
-      fill: currentColor;
-    }
- 
-    /* ── FOOTER BAR ── */
-    .footer-bar {
-      text-align: center;
-      padding: 20px;
-      font-size: 0.8rem;
-      color: #b09070;
-      letter-spacing: 0.03em;
-    }
+/* ── RIGHT: SOCIAL ── */
+.social-col {
+  flex: 1;
+  background: #fdf6ee;
+  padding: 60px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.social-col h2 {
+  font-family: "Niconne", cursive;
+  font-size: 2.8rem;
+  color: #7b5d35;
+  margin-bottom: 12px;
+}
+
+.social-col p {
+  font-size: 0.95rem;
+  color: #8a6a4a;
+  line-height: 1.7;
+  font-weight: 300;
+  margin-bottom: 32px;
+  max-width: 300px;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+  color: #7b5d35;
+  font-size: 0.95rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  transition:
+    color 0.2s,
+    transform 0.2s;
+}
+
+.social-link:hover {
+  color: #c9973a;
+  transform: translateX(4px);
+}
+
+.social-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(123, 93, 53, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition:
+    border-color 0.2s,
+    background 0.2s;
+}
+
+.social-link:hover .social-icon {
+  border-color: #c9973a;
+  background: rgba(201, 151, 58, 0.08);
+}
+
+.social-icon svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+/* ── FOOTER BAR ── */
+.footer-bar {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.8rem;
+  color: #b09070;
+  letter-spacing: 0.03em;
+}
 
 /* ── ABOUT PAGE ── */
 .about-page {
@@ -439,7 +458,7 @@ nav ul li a:hover {
   height: 320px;
   object-fit: cover;
   border-radius: 14px;
-  border: 4px solid rgb(99, 43, 0);
+  border: 3.5px solid rgb(99, 43, 0);
   flex-shrink: 0;
 }
 
@@ -549,4 +568,262 @@ nav ul li a:hover {
     width: 100%;
     height: 280px;
   }
+    /* Menu page */
+  .menu-card {
+    width: 90vw;
+    max-width: 340px;
+  }
+
+  /* Order & Contact forms */
+  .order-form,
+  .contact-form {
+    padding: 24px 16px;
+  }
+
+  /* Order & Contact headings */
+  .order-header,
+  .contact-text,
+  .menu-header-text {
+    font-size: 2.2rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  /* Payment icons */
+  .payment-icons {
+    padding: 6px;
+  }
+
+}
+
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 30px;
+}
+
+.contact-text {
+  font-family: "Niconne", cursive;
+  font-size: 3rem;
+  font-weight: 800;
+  color: #7b5d35;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  max-width: 900px;
+  background: #fff8f0;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 10px 4px 4px rgba(168, 132, 85, 0.1);
+}
+
+label {
+  display: block;
+  color: #a08060;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
+  padding: 5px;
+}
+
+input {
+  height: auto;
+  width: 100%;
+  padding: 10px;
+  border: 3px solid #a08060;
+  border-radius: 8px;
+  font-family: "Nunito Sans";
+  font-weight: 800;
+}
+
+textarea {
+  height: 150px;
+  width: 100%;
+  padding: 10px;
+  border: 3px solid #a08060;
+  border-radius: 8px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+}
+
+.submit-btn {
+  display: block;
+  margin: 10px auto 0;
+  padding: 10px 24px;
+  background-color: #7b5d35;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  color: #fdf6ec;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #5a3a1a;
+}
+
+/* MENU PAGE */
+.menu-header-text {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  font-family: "Niconne", sans-serif;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: rgb(121, 88, 45);
+  letter-spacing: 0.2rem;
+}
+
+.header-subtext {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+  font-family: "Nunito Sans", serif;
+  font-style: italic;
+  color: rgb(121, 88, 45);
+}
+
+.menu-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 16px;
+  background-color: tan;
+  border: 1px solid burlywood;
+}
+
+.menu-card {
+  width: 300px;
+  height: auto;
+  background-color: #fff8f0;
+  border: 5px solid rgb(99, 43, 0);
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.menu-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.price {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  color: #c9973a;
+  margin-top: 6px;
+}
+
+.menu-card h3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 8px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.2rem;
+  color: rgb(121, 88, 45);
+  font-weight: 800;
+}
+
+.menu-card p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 8px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 0.9rem;
+  color: rgb(68, 38, 0);
+  font-weight: 600;
+}
+
+/* ORDER PAGE */
+.order-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  font-family: "Niconne", sans-serif;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: rgb(121, 88, 45);
+  letter-spacing: 0.2rem;
+}
+
+.order-subtext {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+  font-family: "Nunito Sans", serif;
+  font-style: italic;
+  color: rgb(121, 88, 45);
+}
+
+.order-notice {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+  font-family: "Nunito Sans", serif;
+  font-style: italic;
+  color: rgb(121, 88, 45);
+}
+
+.payment-icons {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: flex-start;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.payment-icons img {
+  height: 50px;
+  object-fit: contain;
+}
+
+.payment-icons span {
+  font-family: "Nunito Sans", sans-serif;
+  color: #a08060;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.order-form {
+  margin-top: 20px;
+  max-width: 900px;
+  background: #fff8f0;
+  padding: 60px;
+  border-radius: 18px;
+  box-shadow: 10px 4px 4px rgba(168, 132, 85, 0.1);
+}
+
+.order-form label {
+  margin-top: 16px;
+}
+
+.order-form input,
+.order-form select,
+.order-form textarea {
+  margin-top: 6px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 3px solid #a08060;
+  border-radius: 8px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
 }
