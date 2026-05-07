@@ -776,54 +776,49 @@ textarea {
   color: rgb(121, 88, 45);
 }
 
-.payment-icons {
-  padding: 30px;
+.order-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding: 40px 20px;
+}
+
+.order-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  width: 220px;
+  text-align: center;
+  min-height: 220px;
   display: flex;
   flex-direction: column;
-  gap: 18px;
-  align-items: flex-start;
-  width: fit-content;
-  margin: 0 auto;
+  justify-content: space-between;
 }
 
-.payment-icons img {
-  height: 50px;
-  object-fit: contain;
+.order-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
 }
 
-.payment-icons span {
-  font-family: "Nunito Sans", sans-serif;
-  color: #a08060;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
+.order-card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 8px;
 }
 
-.order-form {
-  margin-top: 20px;
-  max-width: 900px;
-  background: #fff8f0;
-  padding: 60px;
-  border-radius: 18px;
-  box-shadow: 10px 4px 4px rgba(168, 132, 85, 0.1);
-}
-
-.order-form label {
-  margin-top: 16px;
-}
-
-.order-form input,
-.order-form select,
-.order-form textarea {
-  margin-top: 6px;
-}
-
-select {
-  width: 100%;
-  padding: 10px;
-  border: 3px solid #a08060;
+.order-btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 20px;
+  background-color: #7b5c2e;
+  color: #fff;
   border-radius: 8px;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 800;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.order-btn:hover {
+  background-color: #5a3e1b;
 }

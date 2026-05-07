@@ -48,87 +48,49 @@
       </div>
     </header>
     <main>
-      <h2 class="order-header">Order Your Favorite Cinnamon Rolls</h2>
-      <p class="order-subtext">Freshly baked, ready for pickup!</p>
-      <p class="order-notice">Please order at least 48–72 hours in advance.</p>
-      <p class="order-notice">Make payments via: Square, Venmo, $Cash App.</p>
-      <div class="payment-icons">
-        <span class="square">
-          <img
-            src="images/square-logo-removebg-preview.png"
-            alt="Square"
-            width="40px"
-            
-          />
-          brownbutterbaby</span
-        >
-        <span class="venmo">
-          <img
-            src="images/venmo-logo-removebg-preview.png"
-            alt="Venmo"
-            width="40px"
-            
-          />
-          @brownbutterbabyatx</span
-        >
-        <span class="cash-app">
-          <img
-            src="images/new-cashapp-icon-removebg-preview.png"
-            alt="Cash App"
-            width="40px"
-            
-          />
-          $brownbutterbabyatx</span
-        >
-      </div>
+  <h2 class="order-header">Order Your Favorite Cinnamon Rolls</h2>
+  <p class="order-subtext">Freshly baked, ready for pickup!</p>
 
-      <div class="order-form">
-        <form action="#" method="POST">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required />
+  <div class="order-grid">
 
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required />
+    <div class="order-card">
+      <h3>1 Cinnamon Roll</h3>
+      <p>Perfect for treating yourself.</p>
+      <p class="price">$8.00</p>
+      <a href="https://buy.stripe.com/cNicMYfZk3e75p374f0ZW05" target="_blank" class="order-btn">
+        Order Now
+      </a>
+    </div>
 
-          <label for="phone">Phone Number:</label>
-          <input type="tel" id="phone" name="phone" required />
+    <div class="order-card">
+      <h3>4 Cinnamon Rolls</h3>
+      <p>Great for sharing!</p>
+      <p class="price">$26.00</p>
+      <a href="https://buy.stripe.com/bJe14g6oK4ib5p39cn0ZW02" target="_blank" class="order-btn">
+        Order Now
+      </a>
+    </div>
 
-          <label for="item">Choose Item:</label>
-          <select id="item" name="item" required>
-            <option value="classic">Triple Brown Butter Cinnamon Roll</option>
-            <option value="oreo">The Oreroll</option>
-            <option value="strawberry">The Berryroll</option>
-          </select>
+    <div class="order-card">
+      <h3>6 Cinnamon Rolls</h3>
+      <p>Family favorite!</p>
+      <p class="price">$38.00</p>
+      <a href="https://buy.stripe.com/9B65kwbJ4g0T8Bfbkv0ZW01" target="_blank" class="order-btn">
+        Order Now
+      </a>
+    </div>
 
-          <label for="quantity">Choose Quantity:</label>
-          <input
-            type="number"
-            id="quantity"
-            name="quantity"
-            min="1"
-            max="12"
-            value="1"
-            required
-          />
+    <div class="order-card">
+      <h3>12 Cinnamon Rolls</h3>
+      <p>Best value!</p>
+      <p class="price">$70.00</p>
+      <a href="https://buy.stripe.com/7sY7sE28ubKD5p3bkv0ZW03" target="_blank" class="order-btn">
+        Order Now
+      </a>
+    </div>
 
-          <label for="pickup-date">Pickup Date:</label>
-          <input type="date" id="pickup-date" name="pickup_date" required />
-
-          <label for="pickup-time">Pickup Time:</label>
-          <input type="time" id="pickup-time" name="pickup_time" required />
-
-          <label for="order-details">Order Details:</label>
-          <textarea
-            id="order-details"
-            name="order_details"
-            rows="4"
-            required
-          ></textarea>
-
-          <button class="submit-btn" type="submit">Submit Order</button>
-        </form>
-      </div>
-    </main>
+  </div>
+</main>
     <div class="footer-bar">
       &copy; 2026 Brown Butter Baby. All rights reserved.
     </div>
